@@ -11,7 +11,13 @@ body {
 .picimage img {
 	border: #D7263D 4px solid;
 }
-
+a:hover {
+	color: #D7263D !important;
+	font-weight: bold;
+}
+.fa {
+	margin-top: -5px;
+}
 footer {
 	padding: 20px;
 	text-align: center;
