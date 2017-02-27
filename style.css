@@ -1,23 +1,31 @@
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css');
+
 body {
 	font-family: 'Slabo 27px', serif;
-
 }
+
 .picimage {
 	margin-top: 30px;
-	
 }
+
 .picimage img {
 	border: #D7263D 4px solid;
 }
 a:hover {
 	color: #D7263D !important;
-	font-weight: bold;
 }
 .fa {
 	margin-top: -5px;
 }
+a.active {
+  color: #D7263D !important;
+}
+
+.navbar-header img {
+	margin-top: -7px;
+}
+
 footer {
 	padding: 20px;
 	text-align: center;
@@ -91,7 +99,7 @@ span {
 	background-color: #C0D8E0;
 }
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 5px;
 }
  
 ::-webkit-scrollbar-track {
